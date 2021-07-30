@@ -1,0 +1,218 @@
+/* --- */
+/* --- */
+/* @import "main"; */
+*{margin:0; padding:0;}
+body   {background:#fff; position:absolute; width:100%; height:100%; -webkit-font-smoothing: antialiased;
+    left: 0;
+    /* font-family: Open Sans,sans-serif; */
+    cursor: default; font-size:14px; }
+#main  {background:#888; position:absolute; top:0px; bottom:0px; width:100%;}
+#head  {background:#f8f; position:absolute; width:100%; height:40px;}
+#left  {background-color: whitesmoke; position:fixed; width:260px; height:100%; overflow-y:auto;}
+#right {background:#fff; margin-left:250px; height:100%; overflow-y:scroll;}
+#foot  {background:#f88; position:absolute; bottom:0; width:100%; height:60px; overflow:auto;}
+#boxwidth{
+  max-width:60%;
+  margin:auto;
+  padding-top: 5px;
+}
+#left img{margin-top: 5px;
+    padding: 4px 0px 0px 17px;
+    width: 70%;}
+img {
+	width: auto;
+}
+ p{
+    color: rgb(40, 40, 40) !important;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+	 font-family: Open Sans,sans-serif; 
+}
+h4{font-size: 20px;}
+h3, h4{
+	margin: 5px 0px 5px;
+    font-weight: bold;
+    
+}
+h1 a{
+	overflow-wrap: break-word;
+    color: rgb(40, 40, 40);
+    padding-top: 20px;
+    margin: 0px 0px 10px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+
+     .topnav {
+            background-color: #DCEEFF;
+            overflow: hidden;
+            height: 40px;
+            padding: 8px;
+        }
+  
+        .bottomnav {
+            background-color: #E5E5E5;
+            overflow: hidden;
+            height: 40px;
+            padding: 8px;
+        }
+  
+        a {
+            color: rgb(14, 114, 237);            
+            font-weight: 600;
+			font-size: 13px;
+        }
+		.parahightlight code{color:#000; white-space: pre-line;}
+		.bulletleft{ margin-left:20px;}
+		ol {
+    padding-left: 2em;
+}
+ul li{padding:5px; font-size:15px;color: rgb(40, 40, 40) !important;
+    font-weight: normal;
+    font-size: 14px;   
+font-family: Open Sans,sans-serif;}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+ b {
+    font-weight: 600;
+}
+
+pre.highlight {
+    background-color:rgb(250, 250, 250);
+	margin-bottom: 16px;
+	border-radius: 3px;
+    border: thin solid rgb(230, 230, 230);
+}
+pre {
+    padding: 9.5px;    
+    line-height: 1.45;
+    background-color: rgb(250, 250, 250);
+    border-radius: 3px;
+}
+p a{
+	color: rgb(14, 114, 237);
+    font-weight: normal;
+    font-size: 14px;
+}
+.fas, .far{ color: rgb(14, 114, 237); padding: 3px 7px 3px 4px;}
+pre>code {
+   padding: 0;
+    margin: 0;
+    font-size: 13px;
+    word-break: normal;
+    white-space: pre-line;
+    background: transparent;
+    border: 0;
+	color: #808080;
+}
+		
+ span{	padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27,31,35,0.05);
+    border-radius: 3px;	}
+	.hrline{ border:3px solid #ccc;}	
+
+
+.grow {
+    flex: 1;
+}
+
+.main {
+    overflow-y: auto;
+}
+.headingbrd{	
+	padding: 15px 0px;
+    border-top: thin solid rgb(236, 236, 236);
+}
+.headingbtmbrd {
+	padding: 15px 0px;
+    border-bottom: thin solid rgb(236, 236, 236);
+}
+.intro{
+	overflow-wrap: break-word;
+    color: rgb(40, 40, 40);
+    padding-top: 20px;
+    margin: 0px 0px 10px;
+    font-weight: 400;
+	font-size: 36px;
+}
+h2{
+	display: inline;
+    overflow-wrap: break-word;
+    color: rgb(40, 40, 40);   
+	font-size: 24px !important;
+    font-weight: bold;
+	margin: 20px 0px 10px
+}
+.parahightlight{
+	padding: 16px;
+    overflow: auto;
+    font-size: 100%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+}
+blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+}
+code {
+  padding: 3px;
+    margin: 0;
+    font-size: 12.6px;
+    word-break: normal;
+    white-space: pre-line;
+    background: transparent;
+    border: 0;
+    color: grey;
+    border-radius: 3px;
+    border: thin solid rgb(230, 230, 230);
+    font-family: Courier, sans-serif;
+    background: transparent;
+    line-height: 1.5;
+}
+
+.prehilight{padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+	border-radius: 3px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+    font-size:14px;
+}
+
+.logo-image {
+   content: url("../images/MV-logo@2x.png");
+   margin-top: 5px;
+   padding: 4px 0px 0px 17px;
+   width: 70%;
+}​
+
+
+
+.tree li span a {
+	color: rgb(40, 40, 40) !important;
+    font-weight: normal;
+    font-size: 12px;  
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
